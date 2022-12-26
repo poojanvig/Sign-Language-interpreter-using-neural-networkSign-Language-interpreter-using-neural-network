@@ -1,0 +1,13 @@
+body{
+    /* background-image: linear-gradient(to right, #11bd66, #00c77c, #00d192, #00dba7, #0ee5bb); */
+    /* background: rgb(220,251,63);
+background: radial-gradient(circle, rgba(220,251,63,1) 18%, rgba(57,232,190,1) 100%); */
+/* background-image:url(static/bg2.jpg) */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url_for('static',filename='bg2.jpg')
+}
+h1{
+   text-align: center;
+   color: black;
+   font-family: 'Alfa Slab One', cursive;
+   
+}
