@@ -2,9 +2,7 @@ from flask import Flask, render_template, Response
 import cv2
 import numpy as np
 import os
-import time
-from imutils.video import VideoStream
-import imutils
+
 import mediapipe as mp
 from matplotlib import pyplot as plt
 from tensorflow.keras.models import Sequential #to build sequential nueral network
